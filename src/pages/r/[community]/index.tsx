@@ -75,7 +75,7 @@ const CommunityPage: NextPage<CommunityPageProps> = ({ communityData }) => {
 
 export default CommunityPage;
 
-export async function getStaticProps(context: GetServerSidePropsContext) {
+export async function getServerSideProps(context: GetServerSidePropsContext) {
   console.log("GET SERVER SIDE PROPS RUNNING");
 
   try {
